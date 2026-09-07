@@ -27,3 +27,4 @@ npm-debug.log*
 
 # Keep icon.png - it's required for the extension
 !icon.png
+!public/icon.png
