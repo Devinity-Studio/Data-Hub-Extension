@@ -1,0 +1,31 @@
+{
+  "name": "data-hub-extension",
+  "displayName": "Data Hub Extension",
+  "description": "Personal data manager browser extension with sidebar, dashboard, secrets, quick access, and encrypted cloud sync.",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "build:zip": "wxt build --zip",
+    "preview": "wxt preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "@wxt-dev/module-react": "^1.2.2",
+    "jiti": "^2.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.2.9",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "wxt": "^0.21.0"
+  }
+}
