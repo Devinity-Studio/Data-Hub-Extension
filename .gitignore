@@ -24,3 +24,6 @@ npm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+
+# Keep icon.png - it's required for the extension
+!icon.png
