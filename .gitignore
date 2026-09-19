@@ -1,30 +1,47 @@
+```
 # Dependencies
 node_modules/
-
-# Build output
-.output/
-.wxt/
-
-# IDE
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-npm-debug.log*
 
 # Environment
 .env
 .env.local
-.env.*.local
+*.env.*
 
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
-*.temp
 
-# Keep icon.png - it's required for the extension
-!icon.png
-!public/icon.png
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.nyc_output/
+coverage/
+htmlcov/
+.coverage
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
